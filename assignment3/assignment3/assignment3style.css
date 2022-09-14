@@ -3,7 +3,10 @@ a:link {
  color: #ff0000;
  text-decoration: none;
 }
-
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
 a:visited {
  color: #00ff00;
 }
