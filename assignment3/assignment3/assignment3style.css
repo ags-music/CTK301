@@ -1,0 +1,32 @@
+
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+ text-decoration: underline;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ff0000
+}
+nav {
+  background-color: #DD9CF1
+}
+header {
+  color: #B3135B;
+  background-color: #C6F5F5
+}
+#CVA {
+  color: #B3135B;
+}
+.CTK {
+  color: #B3135B
+}
