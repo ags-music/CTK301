@@ -1,0 +1,38 @@
+h1 {
+  color: white;
+}
+header {background-color:#8C20F8;
+ }
+h2 {
+  color: blue;
+}
+a:link {
+ color: green;
+ text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.idky {
+  color: orange;
+}
+h3 {
+  background-color: yellow;
+}
+.specialp {
+  color: red;
+}
+h4 {
+  color: yellow;
+  background-color: green;
+}
+.art {
+  background-color: #07FC82;
+}
+footer {
+  background-color: yellow;
+}
+h5 {
+  color: red;
+}
