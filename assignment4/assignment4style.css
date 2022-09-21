@@ -1,0 +1,81 @@
+
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+ text-decoration: underline;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ff0000
+}
+nav {
+  background-color: #DD9CF1
+}
+header {
+  color: #B3135B;
+  background-color: #C6F5F5;
+  text-align: center;
+}
+#CVA {
+  color: #B3135B;
+  text-align: center
+}
+.justify {
+  text-align: justify;
+}
+.CTK {
+  color: #B3135B
+}
+body {
+  font-family: Arial, sans-serif
+}
+h1 {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+h2 {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+h3 {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+h4 {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+h5 {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+.imgbox {
+  border: 10px solid #000000;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: white;
+}
+body {
+background-image: url(flowers.jpg);
+background-position: center center;
+}
+p {
+  font-weight:bold;
+}
