@@ -16,23 +16,46 @@ body {
 }
 aside {
   grid-column: span 6;
+  margin: 24px;
+  padding: 24px;
 }
 aside img {
-  width:400px;
-  margin: 0;
+  width:590px;
+  margin: 0 0 12px 0;
+  border-radius:5px;
 }
+ figcaption {
+   color:#69475D;
+ }
 header {
   grid-column: span 12;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  font-family: helvetica, arial, sans-serif;
   border-bottom: 2px solid black;
   margin: 5px;
   text-align:center;
-  color: #370A27;
+  color: #69273A;
+  font-family: 'Dancing Script', cursive;
 }
-h1{
+#icons {
+  font-size: 24px;
+  grid-column: span 12;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  color: #69273A;
+
+}
+#icons a {
+  color:#69273A;
+}
+#icons a:hover {
+  box-shadow: 1px 1px 1px #000;
+  font-size: 26px;
+  transition: font-size 0.5s;
+}
+h1  {
   text-align: center;
   grid-column: span 12;
 }
@@ -41,11 +64,14 @@ header nav {
 }
 nav {
   grid-column: span 6;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Dancing Script', cursive;
   display: inline;
 }
 nav li a:hover {
+  font-weight: medium;
+  text-shadow: 1px 1px 1px #000;
   color:#370A27
+
 }
 nav ul {
   margin: 0;
@@ -69,6 +95,7 @@ img {
 }
 nav li {
   display: inline-block;
+  font-size: 24px;
 }
 nav li a {
   display: inline-block;
@@ -76,6 +103,7 @@ nav li a {
   padding: 24px;
   text-transform: lowercase;
   color: #69475D;
+  transition: font-weight 1.0s, text-shadow 2.0s, color 2.0s;
 }
 main {
   grid-column: span 12;
@@ -96,6 +124,7 @@ h2{
   margin-right: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: 'Dancing Script', cursive;
 }
 .center {
   text-align:center;
