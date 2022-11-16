@@ -24,6 +24,31 @@ aside img {
   margin: 0 0 12px 0;
   border-radius:5px;
 }
+.carousel {
+  color: #170724;
+
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 700px;
+  margin-right: 6px;
+
+  background-color: #eee;
+  border-radius: 6px;
+}
+
  figcaption {
    color:#69475D;
  }
@@ -43,6 +68,7 @@ header {
   grid-column: span 12;
   margin: 0;
   padding: 0;
+  margin-top: 50px;
   text-align: right;
   color: #69273A;
 
@@ -63,9 +89,14 @@ header nav {
   text-align:left;
 }
 nav {
-  grid-column: span 6;
+  grid-column: span 12;
   font-family: 'Dancing Script', cursive;
-  display: inline;
+  display: block;
+  position: fixed;
+  background-color: #efe2ea;
+  margin:0;
+  width:100%;
+
 }
 nav li a:hover {
   font-weight: medium;

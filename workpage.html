@@ -8,6 +8,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
 </head>
 <body>
 	<div id="wrapper">
@@ -41,14 +46,29 @@
 		</article>
 		<div id="wrap2">
 	<aside>
-		<iframe width="590" height="400"
+		<h2> Live</h2>
+	
+	<div id="myCarousel" class="carousel">
+	  <div class="carousel__slide"><iframe width="590" height="400"
 	src="https://youtube.com/embed/Y0846CxwdfM">
-	</iframe>
+	</iframe></div>
+	  <div class="carousel__slide"><div class="carousel__slide"><iframe width="590" height="400"
+	src="https://youtube.com/embed/jYZRVcxKYjM">
+	</iframe></div></div>
 
+	  </div>
+	  <script>
+	  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+	  // Your options go here
+	});
+	  </script>
 		<figcaption> This is an original song played at the first open mic I put on as a part of ISU's music business organization. </figcaption>
 	</aside>
 	<aside>
-		<img src="work2.JPG" alt="studio img">
+		<h2> Studio</h2>
+		<audio controls autobuffer autoplay >
+  <source src="drum_project_mixdown.wav" type="audio/WAVEfmt" />
+</audio>
 
 		<figcaption> This album art is from the band Never Neptune's first album, which I have managed and recorded demos for. </figcaption>
 	</aside>
