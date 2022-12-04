@@ -66,10 +66,10 @@ header {
 }
 #icons {
   font-size: 24px;
-  grid-column: span 12;
-  margin: 0;
-  padding: 0;
-  margin-top: 85px;
+  grid-column: span 6;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 10px;
   text-align: right;
   color: #69273A;
 
@@ -88,11 +88,10 @@ h1  {
 }
 header nav {
   text-align:left;
-  margin-top:0;
-  margin-bottom:10px;
+  margin:0;
 }
 nav {
-  grid-column: span 12;
+  grid-column: span 6;
   font-family: 'Dancing Script', cursive;
   display: block;
   margin:0;
@@ -103,27 +102,11 @@ nav li a:hover {
   font-weight: medium;
   text-shadow: 1px 1px 1px #000;
   color:#370A27
-
 }
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-.right {
-  float: right;
-  grid-column: span 6;
-  width: 400px;
-}
-img {
-  width: 1000px;
-  margin: 60px;
-  margin-left: 300px;
-  display: block;
-  grid-column: span 12;
-}
-#workimage {
-  float: left;
 }
 nav li {
   display: inline-block;
@@ -136,6 +119,46 @@ nav li a {
   text-transform: lowercase;
   color: #69475D;
   transition: font-weight 1.0s, text-shadow 2.0s, color 2.0s;
+}
+a {
+font-weight: bold;
+text-decoration: none;
+color: #69475D;
+transition: text-shadow 1.0s, color 1.0s;
+}
+a:hover {
+  text-shadow: 1px 1px 1px #000;
+  color:#370A27
+}
+.right {
+  float: right;
+  grid-column: span 6;
+  width: 400px;
+}
+.headimage {
+  width: 1000px;
+  margin: 60px;
+  margin-left: 300px;
+  display: block;
+  grid-column: span 12;
+}
+
+#work-photos {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-column: span 12;
+}
+#work-photos img {
+  display: inline;
+  grid-column: span 3;
+  width: 100%;
+  margin-left: 0;
+  border: 2px solid #69273A;
+  padding: 2px;
+}
+#work-photos h2 {
+  grid-column: span 12;
 }
 main {
   grid-column: span 12;
@@ -158,7 +181,7 @@ h2{
   padding-right: 50px;
   font-family: 'Dancing Script', cursive;
 }
-.center {
+article {
   text-align:center;
 }
 footer {
