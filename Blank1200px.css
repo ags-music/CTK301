@@ -57,7 +57,7 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #69273A;
   margin: 0;
   padding: 0;
   text-align:center;
@@ -79,8 +79,8 @@ header {
 }
 #icons a:hover {
   box-shadow: 1px 1px 1px #000;
-  font-size: 26px;
-  transition: font-size 0.5s;
+  font-weight:bold;
+  transition: font-weight 0.5s;
 }
 h1  {
   text-align: center;
@@ -156,6 +156,7 @@ a:hover {
   margin-left: 0;
   border: 2px solid #69273A;
   padding: 2px;
+  margin-bottom: 20px;
 }
 #work-photos h2 {
   grid-column: span 12;
